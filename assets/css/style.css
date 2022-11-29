@@ -9985,3 +9985,14 @@ nav .pagination.pagination-2 li a.active {
 		height: 
 	}
 } */
+
+.dropdown > .btn{
+	border-radius: 0%;
+	box-shadow: none;
+}
+
+@media only screen and (max-width: 991px){
+	.dropdown > #dropdownMenuLink{
+		display: none;
+	}
+}
