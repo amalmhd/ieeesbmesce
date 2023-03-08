@@ -9991,8 +9991,22 @@ nav .pagination.pagination-2 li a.active {
 	box-shadow: none;
 }
 
+.join-ieee{
+	display: none;
+}
+
 @media only screen and (max-width: 991px){
 	.dropdown > #dropdownMenuLink{
 		display: none;
 	}
+
+	.join-ieee{
+		display: block;
+	}
+
+	.bnr-cnt-us{
+		margin: 10px;
+		margin-left: 0;
+	}
+
 }
